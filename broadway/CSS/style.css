@@ -1,0 +1,116 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.header {
+    background: #333333;
+}
+
+.header .container {
+    /*Leave 10px space between the top and the bottom, and move 200px to the right*/
+    padding: 10px 120px;
+}
+
+.header li {
+    display: inline;
+    color: #fff;
+    margin: 25px;
+    /*Adjust the font size*/
+    font-size: 12px;
+    /*Adjust the font weight(bold)*/
+    font-weight: 600;
+    /*Adjust the font family*/
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionOne {
+    background: url(http://s3.amazonaws.com/codecademy-content/projects/broadway/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    position: relative;
+}
+
+.sectionOne .container {
+    position: relative;
+    top: 160px;
+}
+
+.sectionOne h1{
+    /*Every tag has defaut margin (NOT 0) and the white space between header and sectionOne is because of h1's margin. 
+    Adding the below margin in order to eliminate the white space */
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-size: 80px;
+    color: #333333;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btnOne {
+    background: #333333;
+    padding: 16px 40px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+}
+
+
+
+
+.sectionTwo .container {
+    /*Align the ALL children elements within the container and , which includes the three columns and the text within the columns, at center*/
+    text-align: center;
+
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+    /* The same effect of above can be achived by using the below codes 
+    margin-top: 60px;
+    margin-bottom: 100px;
+    */
+}
+
+
+
+.sectionTwo .container .col{
+    /*display the three columns inline*/
+    display: inline-block;
+    width: 20%;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.col p {
+    margin-bottom: 40px;
+}
+
+.btnTwo {
+    border: solid #333333;
+    padding: 12px 35px;
+    text-decoration: none;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+}
+
+.footer {
+    background: #333333;
+    color: #fff;
+}
+
+.footer .container{
+    /*Leave 20px space between the top and the bottom, and move 200px to the right*/
+    padding: 20px 120px;
+    font-family: 'Raleway', sans-serif;
+}
