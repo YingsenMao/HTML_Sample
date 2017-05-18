@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.sectionOne {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 800px;
+}
+
+.sectionOne .container {
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+
+.sectionOne h1 {
+    margin-top: 0; 
+    font-size: 70px;
+    color: #fff;
+    line-height: 100px; 
+}
+
+.sectionOne p {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 40px;
+    letter-spacing: 2.8px;
+    font-weight: 600;
+}
+
+.btn {
+    padding: 10px 40px;
+    background: #333333;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btn:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s;  
+}
+.sectionTwo .container {
+    background: #333333;
+    padding: 8px 80px;
+}
+
+.sectionTwo li {
+    display: inline;
+    color: #fff;
+    margin: 10px;
+}
+
+.sectionTwo li:hover {
+    background: #117bff;
+    cursor: pointer; 
+    transition: background .5s;  
+}
+
+.sectionThree .container {
+    position: relative;
+    top: 50px;
+    padding-bottom: 80px; 
+}
+
+.left {
+    width: 15%;
+    /*float: left;*/
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 50px;
+
+}
+
+.right {
+    width: 45%;
+    /*float: right; */
+    display: inline-block;
+}
+
+.sectionFour {
+    margin-top:0;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/innovation-cloud/jumbotron_bg.jpg) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}
+
+.sectionFour .container {
+    text-align: right;
+    padding-top: 100px;
+    padding-right: 100px;
+    color: #fff;
+}
+
+.sectionFour p {
+    margin-bottom: 40px;
+}
+
+.footer {
+    padding: 10px 120px;
+    color: #fff;
+    background: #333333;
+    font-size: 12px;
+    font-weight: 150;
+}
