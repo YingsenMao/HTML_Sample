@@ -66,7 +66,6 @@ body{
     padding-bottom: 80px; 
     /*To display the text right after the image*/
     display: inline-block;
-    margin: 50px;
 }
 
 .sectionThree img {
@@ -75,6 +74,7 @@ body{
     width: 20%;
     margin-right: 100px;
     margin-top: 70px;
+    margin-left: 100px;
 }
 
 
@@ -86,9 +86,10 @@ body{
 }
 
 .sectionFour .container {
+    position: relative;
+    top: 100px;
+    right: 100px;
     text-align: right;
-    padding-top: 100px;
-    padding-right: 100px;
     color: #fff;
 }
 
