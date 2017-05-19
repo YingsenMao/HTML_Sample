@@ -1,0 +1,160 @@
+body {
+    /*remove white space at border*/
+    margin: 0;
+}
+
+/*change header and link font family AT THE BEGINNING*/
+h1, h2, a {
+    font-family: 'Oswald', sans-serif;
+}
+
+/*change P font family AT THE BEGINNING*/
+P {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.sectionOne {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/move/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+}
+
+/*Move the container of text 120px down WITHOUT AFFECTING OTHER DIVS*/
+.sectionOne .container {
+    position: relative;
+    top: 120px;
+    color: #fff;
+}
+
+.sectionOne h1 {
+    /*remove the white space between sectionOne and the top line*/
+    margin-top: 0;
+    font-size: 160px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.sectionOne p {
+    font-size:20px;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+
+.btn {
+    background: #1c1c1c;
+    color: #fff;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*change effect when hover above link button*/
+.btn:hover {
+    background: #ffa800;
+    color: #1c1c1c;
+    cursor: pointer;
+    transition: background .5s;
+}
+.sectionTwo {
+    background: #1c1c1c;
+    /*leave the upper and lower space between the text and border 60px*/
+    padding: 60px 0;
+    /*display columns in the center of sectionTwo*/
+    text-align: center;
+}
+
+.sectionTwo .column {
+    /*display the three columns horizontally as a row*/
+    display: inline-block;
+    /*leave the space between columns as 10px*/
+    margin-right: 10px;
+    width: 20%;
+}
+
+.sectionTwo h2 {
+    color: #ffa800;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sectionTwo p {
+    color: #fff;
+
+}
+
+.sectionThree {
+    margin-top: 0;
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/move/feature.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+/*mover the container that has text down 180px WITHOUT AFFECTING OTHER DIVS*/
+.sectionThree .container {
+    position: relative;
+    top: 180px;
+}
+
+.sectionThree h1 {
+    margin-top: 0;
+    font-size: 50px;
+    color: #fff;
+}
+
+.sectionFour {
+    text-align: center;
+    height: 300px;
+    background: #1c1c1c;
+    color: #fff;
+}
+
+
+.sectionFour .container {
+    position: relative;
+    top: 70px;
+}
+
+.sectionFour h2{
+    color: #ffa800;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.sectionFour p {
+    margin-bottom: 40px;
+}
+
+.btnTwo {
+    background: #fff;
+    color: #333333;
+    padding: 12px 18px;   
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btnTwo:hover {
+    background: #ffa800;
+    transition: background .5s;
+}
+.sectionFive {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/move/footer.jpg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+}
+
+.sectionFive .container {
+    position: relative;
+    top: 150px;
+}
+
+.sectionFive h1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #fff;
+    font-size: 50px;
+}
