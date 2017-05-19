@@ -1,0 +1,47 @@
+
+h1, p, a {
+    font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif;
+}
+.sectionOne {
+    background: url(https://s3.amazonaws.com/codecademy-content/projects/shutterbugg/intro.jpg) no-repeat center center;
+    background-size: cover; 
+    height: 700px;
+}
+
+.sectionOne .container {
+    position: relative;
+    top: 120px;
+    left: 180px;
+}
+
+.sectionOne h1 {
+    margin-top: 0;
+    font-size: 75px;
+    margin-bottom: 30px;
+}
+
+.sectionOne p {
+    font-size: 25px;
+    margin-bottom: 40px;    
+}
+
+.btn {
+    padding: 12px 30px;
+    background: rgba(238,68,95,0.9);
+    color: #fff;    
+    text-decoration: none;
+}
+
+.row {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #dbdbdb;   
+}
+
+.row h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.row p{
+    font-size: 25px;
+}
