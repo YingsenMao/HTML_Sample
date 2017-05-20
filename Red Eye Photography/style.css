@@ -1,0 +1,46 @@
+body {
+  font-family: 'Montserrat', sans-serif;    
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+    background: #fff;
+    height: 140px;
+    text-align: center;
+}
+
+.header .container{
+    position: relative;
+    top: 40px;
+}
+
+.header h1{
+    margin-top: 0;
+}
+
+.list {
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 60px;
+}
+.list li{
+    display: inline;
+    margin: 30px;
+    color: #fff;
+}
+
+li:hover {
+    color: #333333;
+    cursor: pointer;
+    transition: background .5s; 
+}
+
+.images {
+    position: relative;
+    left: 200px;
+}
+
+row {
+    margin-bottom: 50px;
+}
